@@ -11,7 +11,7 @@ PASSO 1: Para criar uma rede, lembre-se de escolher seu compartimento e, em segu
 
 Networking >> Virtual Cloud Networks, no menu principal.  
 
-![](.images/img1.PNG)
+![](images/img1.PNG)
 
 PASSO 2: Para criar as 2 VCNs iremos utilizer o “Start VCN Wizard”
 
