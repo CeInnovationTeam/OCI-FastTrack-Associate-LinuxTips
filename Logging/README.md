@@ -1,10 +1,7 @@
-<a href="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black" target="_blank">
-![Github](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black)
-</a>
 
 # LAB Logging
 
-Nesse laboratório vamos abordar os temas de  [Logging](https://docs.oracle.com/en-us/iaas/Content/Logging/Concepts/loggingoverview.htm) e [Logging Analytics] (https://docs.oracle.com/en-us/iaas/logging-analytics/index.html)
+Nesse laboratório vamos abordar os temas de  [Logging](https://docs.oracle.com/en-us/iaas/Content/Logging/Concepts/loggingoverview.htm) e [Logging Analytics](https://docs.oracle.com/en-us/iaas/logging-analytics/index.html)
 
 Requisitos:
 
