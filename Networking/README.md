@@ -1,6 +1,8 @@
 
 
-# LAB #2 – Networking**Objetivos**
+# LAB #2 – Networking
+
+**Objetivos**
 
 • Criar 2 VCNs  
 • Criar um Local Peering Gateway entre 2 VCNs  
