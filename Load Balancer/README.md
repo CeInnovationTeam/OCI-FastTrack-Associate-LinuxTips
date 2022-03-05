@@ -76,25 +76,25 @@ Teste o comportamento do Apache, tudo que você precisa fazer, é **usar o IP p�
 
 #### PASSO 3 - Teste o comportamento do Apache, tudo que você precisa fazer, é **usar o IP público da instância** do Compute no seu navegador web para verificar se a página principal do Apache aparecerá.
 
-![](.images/img001.png)
+![](images/img001.png)
 
-![](.images/img002.png)
+![](images/img002.png)
 
 **ATENÇÃO**: Antes de testar o Apache em seu navegador web, certifique-se de já ter criado uma regra de entrada (ingress) na **Security List do VCN**, para que a porta 80 seja liberada para tráfego.
 
-![](.images/img003.png)
+![](images/img003.png)
 
-![](.images/img004.png)
+![](images/img004.png)
 Se tudo estiver OK, você pode testar a instalação do Apache. Tudo o que você precisa fazer é usar o endereço IP da instância pública em seu navegador preferido e provavelmente obterá esta saída:
 
-![](.images/img005.png)
+![](images/img005.png)
 
 **IMPORTANTE:** Certifique-se de iniciar a criação do Load Balancer somente depois que ambas as chamadas no apache estiverem funcionando. Isso é importante porque se você criar o Load Balancer sem um serviço disponível, o balanceador de carga será criado no estado de “Erro”. O Load Balancer geralmente leva 5 minutos para "calibrar" seu status.
 
 Nosso objetivo é criar o serviço de Load Balancer somente depois que os dois servidores Apache estiverem em execução, para que o serviço Load Balancer tenha o estado "pronto" e esteja pronto para ser testado.
 
-![](.images/img016.png) 
-![](.images/img017.png)
+![](images/img016.png) 
+![](images/img017.png)
 
 # Load Balancer - Parte 2
 
@@ -103,11 +103,11 @@ Nosso objetivo é criar o serviço de Load Balancer somente depois que os dois s
 
 #### PASSO 1 -  Para acessar a interface do Load Balancer, mais uma vez, vamos começar a partir do “Menu Principal > Load Balancers”
 
-![](.images/img006.png)
+![](images/img006.png)
 
 Clique no botão “Create Load Balancer”:
-![](.images/img007.png)
-![](.images/img008.png)
+![](images/img007.png)
+![](images/img008.png)
 
 
 ### Criando um Load Balancer
@@ -116,30 +116,30 @@ Clique no botão “Create Load Balancer”:
  - Name: lb-apache
  - Visibility Type: Public
  - Bandwidth: 10 Mbps
- - VCN: <Selecione sua VCN>
- - Subnet: <Selecione sua sub-rede pública>
-![](.images/img009.png)
-![](.images/img010.png)
+ - VCN: `<Selecione sua VCN>`
+ - Subnet: `<Selecione sua sub-rede pública>`
+![](images/img009.png)
+![](images/img010.png)
 
 #### PASSO 3 -  Defina a política do Load Balancer e adicione os servidores de back-end. Para adicionar servidores de back-end, clique no botão azul “Add Backends”
 
-![](.images/img011.png)
+![](images/img011.png)
 
 #### PASSO 4 -  Insira os Backend Set servers (suas duas VM’s Linux):
 
-![](.images/img012.png)
+![](images/img012.png)
 
 #### PASSO 5 -  Como última etapa, defina o tipo de tráfego que será tratado
 
-![](.images/img013.png)
+![](images/img013.png)
 
 #### PASSO 6 -  Clique em Submit
 
-![](.images/img014.png)
+![](images/img014.png)
 
 Assim que o processo de criação for concluído, você terá as seguintes informações:
 
-![](.images/img015.png)
+![](images/img015.png)
 
 ### Testando o Load Balancer
 
@@ -153,5 +153,5 @@ Para obter saídas diferentes nas chamadas do Load Balancer, adicione conteúdos
 
 Veja o Resultado:
 
-![](.images/img018.png) 
-![](.images/img019.png)
+![](images/img018.png) 
+![](images/img019.png)
