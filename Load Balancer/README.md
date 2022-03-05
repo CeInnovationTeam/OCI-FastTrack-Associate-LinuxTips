@@ -26,9 +26,6 @@ Para identificar a primeira instância de computação usada na interface web (L
 
 ```python
 cat <<EOF > /var/www/html/index.html
-```
-
-```python
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -51,9 +48,6 @@ EOF
 
 ```python
 cat <<EOF > /var/www/html/index.html
-```
-
-```python
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
