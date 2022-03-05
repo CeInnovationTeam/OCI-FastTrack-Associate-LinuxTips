@@ -1,6 +1,8 @@
 # OCI Fast Track - LINUXtips
 Material para o evento OCI Fast Track para a LINUXtips!
 
+Este é um evento preparatório para a certificação OCI Architect Associate! 🚀
+
 - [Networking](/Networking)
 - [Compute](/Compute)
 - [Storage](/Storage)
