@@ -1,5 +1,5 @@
-# OCI Fast Track - LinuxTips
-Material para o evento OCI Fast Track para a LinuxTips!
+# OCI Fast Track - LINUXtips
+Material para o evento OCI Fast Track para a LINUXtips!
 
 - [Networking](/Networking)
 - [Compute](/Compute)
