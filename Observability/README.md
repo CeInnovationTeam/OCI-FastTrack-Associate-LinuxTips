@@ -151,3 +151,5 @@ Incluindo a segunda query.
 Em seguida você pode alterar o nome do Dashboard e salvar, para salvar basta ir na direita em **About** escolher o **Compartment** e depois ir en **Save Changes**
 
 ![](https://github.com/ladan19/images-lp/blob/main/photo-34.png?raw=true)
+
+Parabéns! Você concluiu este lab!

@@ -163,5 +163,5 @@ Você pode ver o resultado final no “Network Visualizer”
 
 ![](images/img25.PNG)
 
-**FIM DO LAB**
+Parabéns! Você concluiu este lab!
 
