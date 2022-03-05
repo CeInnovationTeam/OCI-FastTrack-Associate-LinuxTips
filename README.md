@@ -7,7 +7,7 @@ Este é um evento preparatório para a certificação OCI Architect Associate! �
 - [Compute](/Compute)
 - [Storage](/Storage)
 - [Load Balancer](https://github.com/CeInnovationTeam/OCI-FastTrack-Associate-LinuxTips/tree/main/Load%20Balancer)
-- [Autonomous Database](https://github.com/CeInnovationTeam/OCI-FastTrack-Associate-LinuxTips/blob/main/Autonomous%20Database/Lab7%20-%20Autonomous%20Database.pdf)
+- [Autonomous Database](https://github.com/CeInnovationTeam/OCI-FastTrack-Associate-LinuxTips/blob/main/Autonomous%20Database/Autonomous%20Database.pdf)
 - [Observability](/Observability)
 
 # \#VAIIIII!
