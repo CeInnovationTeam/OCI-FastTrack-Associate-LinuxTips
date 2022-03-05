@@ -1,7 +1,7 @@
 **EXERCICIO 1 – CRIANDO CHAVE SSH**
 
 ***PASSO 1***  Acesse o OCI Cloud Shell clicando no botão do menu superior direito.O OCI irá provisionar um terminal Linux no web browser
-![Alt ou título da imagem](URL da imagem)
+![](images/img1.PNG)
 
 *** **PASSO 2*****  Crie um par de chaves RSA com o  comando: _“$_ **ssh-keygen -t rsa**_”_
 Mantenha o nome original (id_rsa) apertando **enter**
