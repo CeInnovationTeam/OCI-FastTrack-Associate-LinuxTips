@@ -1,5 +1,5 @@
 
-# LAB Logging
+# LAB Observability
 
 Nesse laboratório vamos abordar os temas de  [Logging](https://docs.oracle.com/en-us/iaas/Content/Logging/Concepts/loggingoverview.htm) e [Logging Analytics](https://docs.oracle.com/en-us/iaas/logging-analytics/index.html)
 
