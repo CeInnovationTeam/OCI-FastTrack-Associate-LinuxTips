@@ -6,7 +6,7 @@ Nesse laboratório vamos abordar os temas de  [Logging](https://docs.oracle.com/
 Requisitos:
 
 - Ter uma VCN
-- Dentro dessa VCN um Compute
+- Dentro dessa VCN, ter um Compute
 
 
 ## Dinâmica do LAB
