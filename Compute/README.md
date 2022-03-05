@@ -178,7 +178,8 @@ Para monitorar o uso da CPU no pool, você pode usar a tela principal do “Metr
 **PASSO 12:** Estabeleça uma conexão SSH com a instância do Pool pelo IP Público ou configurando um Bastion Service e utilize os comandos:
 
 ```python
-sudo su –rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo su –
+rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 yum install stress -y
 stress --cpu 20 --timeout 12000
 ```
