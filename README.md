@@ -1,5 +1,5 @@
 # OCI-Fast-Track-Linuxtips
-Material para evento OCI Fast Track Linuxtips
+Material para evento Workshop OCI Architect Associate para a Linuxtips!
 
 - [Networking](/Networking)
 - [Compute](/Compute)
