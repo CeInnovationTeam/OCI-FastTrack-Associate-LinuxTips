@@ -150,8 +150,7 @@ Após o provisionamento, o Pool se parecerá com a seguinte tela:
 O OCI possibilita 2 tipos de políticas de Autoscaling :
 
 - Metric Based – Baseada em métricas de utilização dos recursos do pool
-   Schedule-based Autoscaling
-- Baseada em agendamento
+- Schedule-based Autoscaling - Baseada em agendamento
 
 ![](images/4img7.PNG)
 
