@@ -155,3 +155,5 @@ Veja o Resultado:
 
 ![](images/img018.png) 
 ![](images/img019.png)
+
+Parabéns! Você concluiu este lab!
