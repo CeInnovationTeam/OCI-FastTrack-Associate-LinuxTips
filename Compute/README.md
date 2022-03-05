@@ -4,14 +4,18 @@
 
 ![](images/1img1.PNG)
 
-*** **PASSO 2*****  Crie um par de chaves RSA com o  comando: _“$_ **ssh-keygen -t rsa**_”_
-Mantenha o nome original (id_rsa) apertando **enter**
-**O campo“Key Passphrase” é opcional**
+*** **PASSO 2*****  Crie um par de chaves RSA com o  comando: 
+```python
+ssh-keygen -t rsa
+```
+Mantenha o nome original "id_rsa", apertando **enter**. **O campo “Key Passphrase” é opcional**
 
 ![](images/1img2.PNG)
 
 **PASSO 3 –**  Exiba o conteúdo da chave pública que você criou utilizando o comando:
-“_$_ **cat ~/.ssh/id_rsa.pub**_”_
+```python
+cat ~/.ssh/id_rsa.pub
+```
 **Selecione e Copie o conteúdo dessa chave**, pois a usaremos para a criação das máquinas virtuais Linux.
 
 ![](images/1img3.PNG)
