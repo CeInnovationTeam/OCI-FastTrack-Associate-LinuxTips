@@ -1,10 +1,10 @@
-**EXERCICIO 1 – CRIANDO CHAVE SSH**
+## Exercício 1 – Criando a Chave SSH
 
-**PASSO 1**  Acesse o OCI Cloud Shell clicando no botão do menu superior direito.O OCI irá provisionar um terminal Linux no web browser
+**PASSO 1** - Acesse o OCI Cloud Shell clicando no botão do menu superior direito.O OCI irá provisionar um terminal Linux no web browser
 
 ![](images/1img1.PNG)
 
-**PASSO 2**  Crie um par de chaves RSA com o  comando: 
+**PASSO 2** - Crie um par de chaves RSA com o  comando: 
 ```python
 ssh-keygen -t rsa
 ```
