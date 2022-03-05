@@ -16,7 +16,7 @@ Mantenha o nome original "id_rsa", apertando **enter**. **O campo “Key Passphr
 ```python
 cat ~/.ssh/id_rsa.pub
 ```
-**Selecione e Copie o conteúdo dessa chave**, pois a usaremos para a criação das máquinas virtuais Linux.
+**Selecione e copie o conteúdo dessa chave**, pois a usaremos para a criação das máquinas virtuais Linux.
 
 ![](images/1img3.PNG)
 
@@ -27,16 +27,23 @@ Para a criação da VM, usaremos a chave pública. A chave privada será usada a
 
 ![](images/1img4.PNG)
 
- Para baixar a chave pública, o caminho é: “**.ssh/id_rsa.pub**”
+ Para baixar a chave pública, o caminho é:
+ ```python
+.ssh/id_rsa.pub
+```
 
 ![](images/1img4_1.PNG)
 
 
-Para baixar a chave privada, o caminho é: “.ssh/id_rsa”
+Para baixar a chave privada, o caminho é:
+
+```python
+.ssh/id_rsa
+```
 
 ![](images/1img4_2.PNG)
 
-**EXERCICIO 2 – CRIANDO VM LINUX**
+## Exercício 2 – Criando a VM Linux
 
 **PASSO 1 -**  No Menu Principal, clique em : Compute > Instances, então “Create Instance” (Botão Azul) :
 
@@ -75,7 +82,7 @@ Lembre-se de escolher o AD certo e seu Compartimento.
 ![](images/2img3.PNG)
 
 
-**PASSO 4 –**  Cole a chave pública SSH criada por você no exercício 3A e clique no botão “Create”.
+**PASSO 4 –**  Cole a chave pública SSH criada por você anteriormente e clique no botão “Create”.
 
 ![](images/2img4.PNG)
 
@@ -84,21 +91,23 @@ Você provavelmente terá a nova instância devidamente criada em alguns minutos
 ![](images/2img4_1.PNG)
 
 
-**EXERCICIO 3 – Acessando a VM através do CloudShell**
+## Exercício 3 – Acessando a VM através do CloudShell
 
-**PASSO 6 -**  Primeiro passo: Pegue o IP Público da Instância
+**PASSO 1 -**  Primeiro passo: Pegue o IP Público da Instância
 
 ![](images/3img6.PNG)
 
 
-**PASSO 7 -**  No OCI Cloud Shell, faça conexão com a máquina criada com o comando:
-“ **ssh opc@**`<ip-público>` ”
+**PASSO 2 -**  No OCI Cloud Shell, faça conexão com a máquina criada com o comando:
+```python
+ssh opc@<ip-público>
+```
 O usuário default nas instâncias Oracle Linux é **opc**
 
 ![](images/3img7.PNG)
 
 
-**EXERCICIO 4 – Criando um Instance Pool com Autoscaling Policy**
+## Exercício 4 – Criando um Instance Pool com Autoscaling Policy
 
 **PASSO 1:** Para criar uma configuração de instância, você pode seguir as etapas abaixo:
 Entre na Instância que deseja copiar a imagem e clique em “More Actions”:
@@ -138,13 +147,12 @@ Após o provisionamento, o Pool se parecerá com a seguinte tela:
 
 **PASSO 7:** Forneça o nome da política, o pool de instâncias que será usado
 
-![](images/4img7.PNG)
-
 O OCI possibilita 2 tipos de políticas de Autoscaling :
 
  - Metric Based – Baseada em métricas de utilização dos recursos do pool
    Schedule-based Autoscaling – Baseada em agendamento:
-   ![Alt ou título da imagem](URL da imagem)
+
+![](images/4img7.PNG)
 
 
 **PASSO 8:** para este exercício, usaremos a escala automática "Metric-based".
@@ -169,10 +177,11 @@ Para monitorar o uso da CPU no pool, você pode usar a tela principal do “Metr
 
 **PASSO 12:** Estabeleça uma conexão SSH com a instância do Pool pelo IP Público ou configurando um Bastion Service e utilize os comandos:
 
-**$ **sudo su** –  
- ****rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm**  
-  **yum install stress -y**
-**stress --cpu 20 --timeout 12000**
+```python
+sudo su –rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+yum install stress -y
+stress --cpu 20 --timeout 12000
+```
 
 ![](images/4img12.PNG)
 
