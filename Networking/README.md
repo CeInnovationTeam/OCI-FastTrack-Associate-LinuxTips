@@ -1,12 +1,12 @@
 
-# LAB #2 – Networking
+# LAB – Networking
 
 **Objetivos**
 
 • Criar 2 VCNs  
 • Criar um Local Peering Gateway entre 2 VCNs  
 
-## Exercício 2a: Criando 2 VCNs
+## Exercício A: Criando 2 VCNs
 
 PASSO 1: Para criar uma rede, lembre-se de escolher seu compartimento e, em seguida, aperte: 
 
@@ -61,7 +61,7 @@ Public Subnet: 172.16.0.0/24
 PrivateSubnet: 172.16.1.0/24  
 
 
-## Exercício 2B: Conectando 2 VCNs com Local Peering Gateway
+## Exercício B: Conectando 2 VCNs com Local Peering Gateway
 
 PASSO 1: Acesse sua VCN-PROD. 
 No menu lateral clique em“Local Peering Gateway”  
